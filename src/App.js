@@ -66,7 +66,6 @@ function App() {
       result.source.index,
       result.destination.index
     );
-    console.log({ reorderedItems });
     setItems(reorderedItems);
   };
 
